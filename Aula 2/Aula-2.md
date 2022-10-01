@@ -1,7 +1,7 @@
 # Aula 2
-Link do repositório: https://github.com/palomacrmoreira/metodologia-agil-develas
-Link do board: https://github.com/users/palomacrmoreira/projects/1
-Link do Miro: https://miro.com/app/board/uXjVPSOoEoE=/
+- Link do repositório: https://github.com/palomacrmoreira/metodologia-agil-develas
+- Link do board: https://github.com/users/palomacrmoreira/projects/1
+- Link do Miro: https://miro.com/app/board/uXjVPSOoEoE=/
 
 Grupo:
 - Bruna Rezende da Silva
