@@ -1,7 +1,7 @@
 # Aula 2
-Link do repositório: https://github.com/palomacrmoreira/metodologia-agil-develas
-Link do board: https://github.com/users/palomacrmoreira/projects/1
-Link do Miro: https://miro.com/app/board/uXjVPSOoEoE=/
+- Link do repositório: https://github.com/palomacrmoreira/metodologia-agil-develas
+- Link do board: https://github.com/users/palomacrmoreira/projects/1
+- Link do Miro: https://miro.com/app/board/uXjVPSOoEoE=/
 
 Grupo:
 - Bruna Rezende da Silva
@@ -25,6 +25,25 @@ Tarefas:
 
 ### Escolher metodologia e justificar
 Metodologia Escolhida: Kanban.
+
+O foco do Kanban é priorizar a produtividade e a organização das entregas. O objetivo é proporcionar um trabalho mais transparente e direcionado.
+
+Isso é possível graças ao método evolutivo do Kanban, que busca fugir de disrupções. Na verdade, o Kanban serve para instaurar melhorias contínuas e graduais.
+
+O Kanban pode ser 
+- Kanban de movimentação
+- Kanban de produção
+
+Para este trabalho escolhemos o Kanban de produção, onde os murais normalmente são divididos em três partes: para fazer (to do), fazendo (doing) e feito (done).
+
+Cada cartão precisa apresentar dados mínimos sobre cada atividade a ser desempenhada:
+- O que é necessário fazer;
+- O prazo para conclusão,
+- O responsável por promover a atividade.
+
+Quando os trabalhos começam, os cartões vão para a etapa posterior, até a finalização dentro do quadro Kanban.
+
+A coluna que estiver com uma vaga em aberto pode receber uma nova tarefa, “puxando” mais um item da linha de produção. 
 
 #### Porque o Kanban?
 - É simples e fácil de ser aplicado;
