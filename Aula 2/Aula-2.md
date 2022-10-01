@@ -45,7 +45,7 @@ Quando os trabalhos começam, os cartões vão para a etapa posterior, até a fi
 
 A coluna que estiver com uma vaga em aberto pode receber uma nova tarefa, “puxando” mais um item da linha de produção. 
 
-#### Porque o Kanban?
+### Porque o Kanban?
 - É simples e fácil de ser aplicado;
 - Elimina atividades que não agrega valor à equipe;
 - 
