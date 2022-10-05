@@ -1,0 +1,231 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+    font-family: "Space Mono";
+}
+  
+main {
+    background-color: white;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 2rem;
+}
+  
+.logo {
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+  
+.texto {
+    color: hsl(186, 14%, 43%);
+    margin-bottom: 0.5rem;
+}
+  
+  /*------------INPUT-----------*/
+.input_valor,
+.input_pessoas {
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    display: block;
+    width: 100%;
+    height: 3rem;
+    padding-right: 1rem;
+    padding-left: 2rem;
+    font-family: "Space Mono";
+    font-size: 24px;
+    text-align: end;
+    color: hsl(183, 100%, 15%);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+}
+  
+.icone_dollar {
+    position: relative;
+    bottom: 2rem;
+    left: 1rem;
+}
+  
+.icone_pessoa {
+    position: relative;
+    bottom: 2rem;
+    left: 1rem;
+}
+  
+/*------------BOTOES-----------*/
+.botoes {
+    padding: 0;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap; /*permite que os itens quebrem para a proxima linha*/
+    justify-content: space-between;
+}
+  
+li {
+    list-style: none;
+    margin: 0.5rem 0 0.5rem 0;
+    width: 48%;
+    text-align: center;
+}
+  
+li .botao_calculo {
+    height: 3rem;
+}
+  
+.botao_calculo {
+    border: none;
+    width: 100%;
+    background-color: hsl(183, 100%, 15%);
+    font-family: "Space Mono";
+    color: white;
+    font-size: 24px;
+    padding: 0.25rem 2.5rem 0.25rem 2.5rem;
+    border-radius: 0.25rem;
+}
+  
+.botao_calculo:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    cursor: pointer;
+}
+  
+.botao_calculo:active {
+    background-color: hsl(185, 41%, 84%);
+}
+  
+.input_tip {
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    font-family: "Space Mono";
+    font-size: 25px;
+    height: 3rem;
+    border-radius: 0.25rem;
+    text-align: end;
+    padding-right: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+input::placeholder {
+    color: hsl(186, 14%, 43%);
+}
+  
+textarea:focus,
+input:focus,
+select:focus {
+    outline: 0;
+}
+  
+/*------------EXIBIÇAO DO RESULTADO-----------*/
+.resultado {
+    margin-top: 1rem;
+    background-color: hsl(183, 100%, 15%);
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+}
+  
+.resultado_texto {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+  
+.texto_pessoa {
+    font-size: 12px;
+    color: hsl(184, 14%, 56%);
+    margin-bottom: 2rem;
+}
+  
+.tipAmount {
+    display: inline-block;
+    margin-top: 1rem;
+    width: 51%;
+}
+  
+#gorgetaPorPessoaId {
+    color: hsl(172, 67%, 45%);
+    font-size: 30px;
+    display: inline-block;
+    padding-top: 1rem;
+    position: absolute;
+    right: 4rem;
+}
+  
+.total {
+    display: inline-block;
+    width: 51%;
+}
+  
+#totalPorPessoaId {
+    color: hsl(172, 67%, 45%);
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 4rem;
+}
+  
+.botao_reset {
+    border: none;
+    width: 100%;
+    background-color: hsl(172, 67%, 45%);
+    font-family: "Space Mono";
+    color: hsl(183, 100%, 15%);
+    font-size: 24px;
+    padding: 0.25rem 2.5rem 0.25rem 2.5rem;
+    border-radius: 0.25rem;
+}
+  
+.botao_reset:hover {
+    background-color: hsl(185, 41%, 84%);
+    cursor: pointer;
+}
+  
+.attribution {
+    margin: 1rem 0;
+}
+  
+@media screen and (min-width: 960px) {
+    main {
+        width: 70%;
+        margin: auto;
+        padding: 3rem 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+  
+    .logo {
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+    }
+  
+    .principal {
+        width: 50%;
+        display: inline-block;
+        box-sizing: border-box;
+        margin-right: 3rem;
+    }
+  
+    li {
+        width: 30%;
+    }
+  
+    .resultado {
+        display: flex-box;
+        width: 50%;
+    }
+  
+    #gorgetaPorPessoaId {
+        position: absolute;
+        right: 18%;
+        box-sizing: border-box;
+    }
+  
+    #totalPorPessoaId {
+        position: absolute;
+        right: 18%;
+        box-sizing: border-box;
+    }
+  
+    .botao_reset {
+        position: relative;
+        top: 5.5rem;
+    }
+}

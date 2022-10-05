@@ -1,0 +1,7 @@
+- incluir número mínimo de pessoas;
+- Padronizar nomes das variáveis;
+- Nomes das variáveis em inglês;
+- Simplificar funções mantendo elas o mais claro possível
+- Evitar a repetição no código
+- Atualizar para facilitar manutenções futuras
+- 
