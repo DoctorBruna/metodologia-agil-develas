@@ -159,14 +159,3 @@ Além disso, por violar a regra de branches de curta duração, por conta do cic
 A quantidade de branches que são criadas com o Git Flow e que podem ter diferentes tempos de vida, aumentam potencialmente os conhecidos conflitos do Git na hora do merge.Outro ponto é que se você utilizar o Git Flow, o comando rebase do Git terá que ser esquecido, pois não poderá ser utilizado.
 
 Por esses motivos, se estiver trabalhando em uma startup, onde você pode ter que lançar várias features em um dia; gitflow não é bom para você.
-
-### Conclusão
-Nesse artigo, conhecemos o conceito do Git Flow e vimos como ele pode nos ajudar - e também atrapalhar o versionamento dos nossos códigos. Além disso, aprendemos a utilizá-lo na prática, com a ajuda de uma CLI e também sem a ajuda dela, apenas com os comandos básicos do Git.
-
-Vimos também o funcionamento esperado para o fluxo de trabalho de uma equipe que utiliza o Git Flow, e entendemos quando essa abordagem é recomendada para ser utilizada.
-
-Não deixe de explorar outras opções, pois além do Git Flow, existem diversos outros fluxos de trabalho, e você deve sempre avaliar o contexto de cada projeto para decidir qual fluxo mais se encaixa para cada situação.
-
-Portanto, é importante ressaltar que, antes de implementar um fluxo, faça um estudo aprofundado com análises técnicas mostrando as vantagens e desvantagens de sua utilização.
-
-E aí, o que você achou? Não deixe de conferir nossos cursos de Git e continue mergulhando em tecnologia!
