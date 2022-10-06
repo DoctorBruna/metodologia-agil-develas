@@ -1,4 +1,5 @@
 # Gitflow
+sdadadas
 o objetivo do Git Flow era melhorar as organizações das Branches (ramificações) dentro de repositórios e, desta forma, dar mais fluidez ao processo de desenvolvimento de novas funcionalidades, correções de bugs e lançamentos de versões.
 
 ## Quando utilizar o Git Flow?
